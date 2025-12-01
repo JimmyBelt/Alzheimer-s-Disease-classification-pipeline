@@ -82,7 +82,7 @@ radiomics_pipeline/
 
 ```bash
 # Clone the repository
-git clone https://github.com/JimmyBelt/Alzheimer-s-Disease-classification-pipeline
+git clone https://github.com/JimmyBelt/Alzheimer-s-Disease-classification-pipeline.git
 cd radiomics_pipeline
 
 # Create virtual environment
