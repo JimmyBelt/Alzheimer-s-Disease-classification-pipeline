@@ -415,7 +415,8 @@ Thanks to Blanca Rodríguez González
 ## 📧 Contact
 
 For questions or support: jaime120901@gmail.com
-Linkenidn: www.linkedin.com/in/jaimebeltransz
+
+Linkedin: www.linkedin.com/in/jaimebeltransz
 
 
 ---
