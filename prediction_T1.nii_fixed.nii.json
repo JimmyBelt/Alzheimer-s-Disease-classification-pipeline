@@ -1,0 +1,11 @@
+{
+  "prediction": 1,
+  "prediction_label": "AD",
+  "probability_CN": 0.22,
+  "probability_AD": 0.78,
+  "confidence": 0.78,
+  "model_used": "random_forest",
+  "image_path": "data\\AD\\sub-015\\T1\\T1.nii_fixed.nii.gz",
+  "mask_path": "data\\AD\\sub-015\\label\\label.nii_fixed.nii.gz",
+  "timestamp": "2025-10-29T14:02:00.429347"
+}

@@ -1,0 +1,25 @@
+{
+  "creation_date": "2025-10-29T13:34:37.499594",
+  "best_model": "random_forest",
+  "n_features": 15,
+  "selected_features": [
+    "exponential_firstorder_Range",
+    "wavelet-HLL_firstorder_RobustMeanAbsoluteDeviation",
+    "wavelet-HLL_firstorder_MeanAbsoluteDeviation",
+    "square_glszm_GrayLevelVariance",
+    "wavelet-HLL_firstorder_Range",
+    "exponential_firstorder_Mean",
+    "exponential_firstorder_Maximum",
+    "wavelet-HLL_firstorder_Maximum",
+    "exponential_firstorder_Kurtosis",
+    "wavelet-HLL_glszm_GrayLevelVariance",
+    "wavelet-HLL_glcm_JointEntropy",
+    "wavelet-HLL_firstorder_Variance",
+    "wavelet-HLL_firstorder_RootMeanSquared",
+    "exponential_firstorder_10Percentile",
+    "exponential_firstorder_Energy"
+  ],
+  "n_samples_train": 18,
+  "n_samples_val": 4,
+  "n_samples_test": 5
+}

@@ -1,0 +1,6 @@
+Model,Train_Accuracy,Test_Accuracy,Train_F1,Test_F1,Train_ROC_AUC,Test_ROC_AUC,Overfit_Gap
+random_forest,1.0,1.0,1.0,1.0,1.0,1.0,0.0
+xgboost,1.0,0.8,1.0,0.8,1.0,1.0,0.19999999999999996
+gradient_boosting,1.0,1.0,1.0,1.0,1.0,1.0,0.0
+logistic_regression,0.5555555555555556,0.6,0.0,0.0,1.0,1.0,-0.0444444444444444
+svm,0.5555555555555556,0.6,0.0,0.0,0.0,0.0,-0.0444444444444444

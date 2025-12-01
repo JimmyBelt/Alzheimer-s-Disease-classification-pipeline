@@ -1,0 +1,607 @@
+2025-10-29 13:34:37,483 - root - INFO - Starting training mode
+2025-10-29 13:34:37,483 - root - INFO - Quick mode enabled - reduced hyperparameter search space
+2025-10-29 13:34:37,483 - pipeline - INFO - ================================================================================
+2025-10-29 13:34:37,483 - pipeline - INFO - RADIOMICS PIPELINE INITIALIZED
+2025-10-29 13:34:37,483 - pipeline - INFO - ================================================================================
+2025-10-29 13:34:37,499 - feature_extraction - INFO - Radiomics extractor initialized
+2025-10-29 13:34:37,499 - pipeline - INFO - 
+================================================================================
+2025-10-29 13:34:37,499 - pipeline - INFO - STARTING COMPLETE PIPELINE
+2025-10-29 13:34:37,531 - pipeline - INFO - ================================================================================
+
+2025-10-29 13:34:37,531 - pipeline - INFO - STEP 1: Feature extraction
+2025-10-29 13:34:37,531 - pipeline - INFO - Starting feature extraction from: data
+2025-10-29 13:34:37,532 - feature_extraction - INFO - Processing AD dataser (label=1)
+2025-10-29 13:34:37,535 - feature_extraction - INFO - Processing CN dataser (label=0)
+2025-10-29 13:34:37,535 - feature_extraction - INFO - Found 27 valid subjects
+2025-10-29 13:34:37,535 - feature_extraction - INFO - Extracting features from 27 subjects...
+2025-10-29 13:34:37,603 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:34:41,124 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-001\T1\T1.nii.gz
+2025-10-29 13:34:43,328 - preprocessing - INFO - Fixed image saved to data\AD\sub-001\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:34:45,518 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-001\label\label.nii.gz
+2025-10-29 13:34:45,787 - preprocessing - INFO - Fixed image saved to data\AD\sub-001\label\label.nii_fixed.nii.gz
+2025-10-29 13:34:46,875 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:34:46,901 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:34:46,901 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:35:23,921 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:35:30,662 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-002\T1\T1.nii.gz
+2025-10-29 13:35:33,507 - preprocessing - INFO - Fixed image saved to data\AD\sub-002\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:35:35,982 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-002\label\label.nii.gz
+2025-10-29 13:35:36,308 - preprocessing - INFO - Fixed image saved to data\AD\sub-002\label\label.nii_fixed.nii.gz
+2025-10-29 13:35:37,217 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:35:37,242 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:35:37,242 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:36:00,174 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:36:03,682 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-004\T1\T1.nii.gz
+2025-10-29 13:36:05,319 - preprocessing - INFO - Fixed image saved to data\AD\sub-004\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:36:07,714 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-004\label\label.nii.gz
+2025-10-29 13:36:08,101 - preprocessing - INFO - Fixed image saved to data\AD\sub-004\label\label.nii_fixed.nii.gz
+2025-10-29 13:36:08,755 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:36:08,779 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:36:08,779 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:36:33,543 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:36:37,681 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-005\T1\T1.nii.gz
+2025-10-29 13:36:40,363 - preprocessing - INFO - Fixed image saved to data\AD\sub-005\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:36:42,468 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-005\label\label.nii.gz
+2025-10-29 13:36:42,912 - preprocessing - INFO - Fixed image saved to data\AD\sub-005\label\label.nii_fixed.nii.gz
+2025-10-29 13:36:44,006 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:36:44,011 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:36:44,026 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:37:09,805 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:37:13,345 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-007\T1\T1.nii.gz
+2025-10-29 13:37:15,015 - preprocessing - INFO - Fixed image saved to data\AD\sub-007\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:37:17,166 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-007\label\label.nii.gz
+2025-10-29 13:37:17,399 - preprocessing - INFO - Fixed image saved to data\AD\sub-007\label\label.nii_fixed.nii.gz
+2025-10-29 13:37:18,019 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:37:18,053 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:37:18,053 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:37:44,456 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:37:48,648 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-008\T1\T1.nii.gz
+2025-10-29 13:37:51,672 - preprocessing - INFO - Fixed image saved to data\AD\sub-008\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:37:54,332 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-008\label\label.nii.gz
+2025-10-29 13:37:54,610 - preprocessing - INFO - Fixed image saved to data\AD\sub-008\label\label.nii_fixed.nii.gz
+2025-10-29 13:37:55,235 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:37:55,246 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:37:55,246 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:38:26,087 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:38:29,820 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-009\T1\T1.nii.gz
+2025-10-29 13:38:31,711 - preprocessing - INFO - Fixed image saved to data\AD\sub-009\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:38:34,852 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-009\label\label.nii.gz
+2025-10-29 13:38:35,239 - preprocessing - INFO - Fixed image saved to data\AD\sub-009\label\label.nii_fixed.nii.gz
+2025-10-29 13:38:36,168 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:38:36,186 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:38:36,186 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:39:02,928 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:39:09,070 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-010\T1\T1.nii.gz
+2025-10-29 13:39:13,017 - preprocessing - INFO - Fixed image saved to data\AD\sub-010\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:39:15,123 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-010\label\label.nii.gz
+2025-10-29 13:39:15,539 - preprocessing - INFO - Fixed image saved to data\AD\sub-010\label\label.nii_fixed.nii.gz
+2025-10-29 13:39:16,025 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:39:16,041 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:39:16,041 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:39:48,850 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:39:53,035 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-011\T1\T1.nii.gz
+2025-10-29 13:39:54,947 - preprocessing - INFO - Fixed image saved to data\AD\sub-011\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:39:56,977 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-011\label\label.nii.gz
+2025-10-29 13:39:57,155 - preprocessing - INFO - Fixed image saved to data\AD\sub-011\label\label.nii_fixed.nii.gz
+2025-10-29 13:39:57,827 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:39:57,843 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:39:57,843 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:40:19,934 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:40:24,473 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-013\T1\T1.nii.gz
+2025-10-29 13:40:26,267 - preprocessing - INFO - Fixed image saved to data\AD\sub-013\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:40:28,791 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-013\label\label.nii.gz
+2025-10-29 13:40:29,335 - preprocessing - INFO - Fixed image saved to data\AD\sub-013\label\label.nii_fixed.nii.gz
+2025-10-29 13:40:30,139 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:40:30,156 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:40:30,156 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:40:51,109 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:40:54,989 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-014\T1\T1.nii.gz
+2025-10-29 13:40:56,449 - preprocessing - INFO - Fixed image saved to data\AD\sub-014\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:40:58,613 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-014\label\label.nii.gz
+2025-10-29 13:40:58,793 - preprocessing - INFO - Fixed image saved to data\AD\sub-014\label\label.nii_fixed.nii.gz
+2025-10-29 13:40:59,170 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:40:59,179 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:40:59,181 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:41:24,606 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:41:29,062 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-015\T1\T1.nii.gz
+2025-10-29 13:41:32,461 - preprocessing - INFO - Fixed image saved to data\AD\sub-015\T1\T1.nii_fixed.nii.gz
+2025-10-29 13:41:34,500 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-015\label\label.nii.gz
+2025-10-29 13:41:34,684 - preprocessing - INFO - Fixed image saved to data\AD\sub-015\label\label.nii_fixed.nii.gz
+2025-10-29 13:41:35,148 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:41:35,169 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:41:35,169 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:42:00,444 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:42:01,839 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:42:01,850 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:42:01,851 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:42:31,441 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:42:32,569 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:42:32,574 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:42:32,575 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:43:03,014 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:43:04,783 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:43:04,890 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:43:04,898 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:43:34,477 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:43:35,313 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:43:35,320 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:43:35,320 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:44:08,586 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:44:09,570 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:44:09,577 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:44:09,577 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:44:36,246 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:44:37,910 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:44:37,926 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:44:37,926 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:45:09,094 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:45:09,888 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:45:09,902 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:45:09,903 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:45:49,232 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:45:50,539 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:45:50,551 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:45:50,552 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:46:17,665 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:46:18,898 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:46:18,905 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:46:18,906 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:46:55,294 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:46:57,432 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:46:57,546 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:46:57,554 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:47:50,402 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:47:52,009 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:47:52,022 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:47:52,023 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:48:31,586 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:48:32,951 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:48:32,959 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:48:32,960 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:49:05,304 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:49:06,276 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:49:06,287 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:49:06,288 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:49:41,153 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:49:42,597 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:49:42,611 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:49:42,611 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:50:12,477 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 13:50:13,960 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 13:50:13,972 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 13:50:13,975 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 13:50:46,038 - feature_extraction - INFO - Successfully extracted features from 27 subjects
+2025-10-29 13:50:46,039 - feature_extraction - INFO - Number of features: 1617
+2025-10-29 13:50:46,047 - feature_extraction - INFO - Class distribution: [15 12]
+2025-10-29 13:50:46,069 - pipeline - INFO - Extracted 1617 features from 27 subjects
+2025-10-29 13:50:46,765 - pipeline - INFO - Features saved to C:\Users\user\Desktop\Radiomica\PIPELINE\results\raw_features.csv
+2025-10-29 13:50:46,765 - pipeline - INFO - 
+STEP 2: Data Splitting
+2025-10-29 13:50:46,766 - pipeline - INFO - Splitting data into train/validation/test sets
+2025-10-29 13:50:46,860 - pipeline - INFO - Train set: 18 samples
+2025-10-29 13:50:46,860 - pipeline - INFO - Validation set: 4 samples
+2025-10-29 13:50:46,861 - pipeline - INFO - Test set: 5 samples
+2025-10-29 13:50:46,863 - pipeline - INFO - Train class distribution: [10  8]
+2025-10-29 13:50:46,864 - pipeline - INFO - Val class distribution: [2 2]
+2025-10-29 13:50:46,865 - pipeline - INFO - Test class distribution: [3 2]
+2025-10-29 13:50:46,867 - pipeline - INFO - 
+STEP 3: Feature Selection
+2025-10-29 13:50:46,867 - pipeline - INFO - Starting feature selection
+2025-10-29 13:50:46,872 - feature_selection - INFO - Starting compehensive feature selection with 1617 features
+2025-10-29 13:50:48,991 - feature_selection - INFO - Variance threshold: Removed 659 features with variance < 0.01
+2025-10-29 13:50:48,995 - feature_selection - INFO - After variance filter: 941 features
+2025-10-29 13:50:49,016 - feature_selection - INFO - Correlation filter: Removed 2 features with correlation > 0.8
+2025-10-29 13:50:49,024 - feature_selection - INFO - After correlation filter: 939 features
+2025-10-29 13:50:53,615 - feature_selection - INFO - Univariante selection (mutual_info): Selected 100 features
+2025-10-29 13:50:53,616 - feature_selection - INFO - After univariante selection: 100 features
+2025-10-29 13:51:12,791 - feature_selection - INFO - RFE: Selected 50 features
+2025-10-29 13:51:12,794 - feature_selection - INFO - After RFE: 50 features
+2025-10-29 13:52:05,826 - feature_selection - INFO - Boruta: Selected 50 features as confirmed importance
+2025-10-29 13:52:05,844 - feature_selection - INFO -  After Boruta: 50 features
+2025-10-29 13:52:07,494 - feature_selection - INFO - Final selection: 15 features
+2025-10-29 13:52:07,507 - pipeline - INFO - Feature selection completed: 15 feature selected
+2025-10-29 13:52:11,839 - feature_selection - INFO - Selection summary saved to C:\Users\user\Desktop\Radiomica\PIPELINE\results\features_selection_summary.png
+2025-10-29 13:53:27,896 - pipeline - INFO - 
+STEP 4: Feature Scaling
+2025-10-29 13:53:27,896 - pipeline - INFO - Scaling features using minmax method
+2025-10-29 13:53:27,927 - pipeline - INFO - Feature scaling completed
+2025-10-29 13:53:27,936 - pipeline - INFO - 
+STEP 5: Model Training
+2025-10-29 13:53:27,938 - pipeline - INFO - Starting model training
+2025-10-29 13:53:27,939 - model_training - INFO - Training 5 models: ['random_forest', 'xgboost', 'svm', 'gradient_boosting', 'logistic_regression']
+2025-10-29 13:53:27,940 - model_training - INFO - Training random_forest ...
+2025-10-29 13:56:32,744 - model_training - INFO - random_forest - Best CV score: 1.0000
+2025-10-29 13:56:32,745 - model_training - INFO - random_forest - Best params: {'criterion': 'gini', 'max_depth': 3, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+2025-10-29 13:56:32,752 - model_training - INFO - Training xgboost ...
+2025-10-29 13:57:02,503 - model_training - INFO - xgboost - Best CV score: 1.0000
+2025-10-29 13:57:02,503 - model_training - INFO - xgboost - Best params: {'colsample_bytree': 0.8, 'gamma': 0, 'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 50, 'subsample': 0.8}
+2025-10-29 13:57:02,508 - model_training - INFO - Training svm ...
+2025-10-29 13:57:02,996 - model_training - INFO - svm - Best CV score: 1.0000
+2025-10-29 13:57:02,996 - model_training - INFO - svm - Best params: {'C': 0.01, 'gamma': 'scale', 'kernel': 'linear'}
+2025-10-29 13:57:03,000 - model_training - INFO - Training gradient_boosting ...
+2025-10-29 13:57:22,892 - model_training - INFO - gradient_boosting - Best CV score: 1.0000
+2025-10-29 13:57:22,905 - model_training - INFO - gradient_boosting - Best params: {'learning_rate': 0.01, 'max_depth': 3, 'n_estimators': 50, 'subsample': 0.8}
+2025-10-29 13:57:22,955 - model_training - INFO - Training logistic_regression ...
+2025-10-29 13:57:38,327 - model_training - INFO - logistic_regression - Best CV score: 1.0000
+2025-10-29 13:57:38,328 - model_training - INFO - logistic_regression - Best params: {'C': 0.01, 'l1_ratio': None, 'max_iter': 100, 'penalty': 'l2', 'solver': 'lbfgs'}
+2025-10-29 13:57:38,332 - model_training - INFO - Best model random_forest (CV score: 1.0000)
+2025-10-29 13:57:38,333 - pipeline - INFO - Training completed. Best model: random_forest
+2025-10-29 13:57:38,335 - pipeline - INFO - 
+STEP 6: Model Evaluation
+2025-10-29 13:57:38,336 - pipeline - INFO - Evaluating models on all datasets
+2025-10-29 13:57:38,337 - model_training - INFO - 
+Evaluation random_forest ...
+2025-10-29 13:57:38,491 - model_training - INFO - 
+TRAIN SET PERFORMANCE:
+2025-10-29 13:57:38,492 - model_training - INFO -   Accuracy:  1.0000
+2025-10-29 13:57:38,492 - model_training - INFO -   Precision: 1.0000
+2025-10-29 13:57:38,493 - model_training - INFO -   Recall:    1.0000
+2025-10-29 13:57:38,493 - model_training - INFO -   F1 Score:  1.0000
+2025-10-29 13:57:38,494 - model_training - INFO -   ROC AUC:   1.0000
+2025-10-29 13:57:38,640 - model_training - INFO - 
+TEST SET PERFORMANCE:
+2025-10-29 13:57:38,641 - model_training - INFO -   Accuracy:  1.0000
+2025-10-29 13:57:38,641 - model_training - INFO -   Precision: 1.0000
+2025-10-29 13:57:38,642 - model_training - INFO -   Recall:    1.0000
+2025-10-29 13:57:38,643 - model_training - INFO -   F1 Score:  1.0000
+2025-10-29 13:57:38,643 - model_training - INFO -   ROC AUC:   1.0000
+2025-10-29 13:57:38,644 - model_training - INFO - 
+Evaluation xgboost ...
+2025-10-29 13:57:38,697 - model_training - INFO - 
+TRAIN SET PERFORMANCE:
+2025-10-29 13:57:38,704 - model_training - INFO -   Accuracy:  1.0000
+2025-10-29 13:57:38,705 - model_training - INFO -   Precision: 1.0000
+2025-10-29 13:57:38,707 - model_training - INFO -   Recall:    1.0000
+2025-10-29 13:57:38,707 - model_training - INFO -   F1 Score:  1.0000
+2025-10-29 13:57:38,708 - model_training - INFO -   ROC AUC:   1.0000
+2025-10-29 13:57:38,788 - model_training - INFO - 
+TEST SET PERFORMANCE:
+2025-10-29 13:57:38,789 - model_training - INFO -   Accuracy:  0.8000
+2025-10-29 13:57:38,790 - model_training - INFO -   Precision: 0.6667
+2025-10-29 13:57:38,790 - model_training - INFO -   Recall:    1.0000
+2025-10-29 13:57:38,791 - model_training - INFO -   F1 Score:  0.8000
+2025-10-29 13:57:38,792 - model_training - INFO -   ROC AUC:   1.0000
+2025-10-29 13:57:38,792 - model_training - INFO - 
+Evaluation svm ...
+2025-10-29 13:57:38,894 - model_training - INFO - 
+TRAIN SET PERFORMANCE:
+2025-10-29 13:57:38,899 - model_training - INFO -   Accuracy:  0.5556
+2025-10-29 13:57:38,900 - model_training - INFO -   Precision: 0.0000
+2025-10-29 13:57:38,901 - model_training - INFO -   Recall:    0.0000
+2025-10-29 13:57:38,906 - model_training - INFO -   F1 Score:  0.0000
+2025-10-29 13:57:38,937 - model_training - INFO -   ROC AUC:   0.0000
+2025-10-29 13:57:38,994 - model_training - INFO - 
+TEST SET PERFORMANCE:
+2025-10-29 13:57:38,994 - model_training - INFO -   Accuracy:  0.6000
+2025-10-29 13:57:38,995 - model_training - INFO -   Precision: 0.0000
+2025-10-29 13:57:38,995 - model_training - INFO -   Recall:    0.0000
+2025-10-29 13:57:38,996 - model_training - INFO -   F1 Score:  0.0000
+2025-10-29 13:57:38,997 - model_training - INFO -   ROC AUC:   0.0000
+2025-10-29 13:57:38,998 - model_training - INFO - 
+Evaluation gradient_boosting ...
+2025-10-29 13:57:39,034 - model_training - INFO - 
+TRAIN SET PERFORMANCE:
+2025-10-29 13:57:39,035 - model_training - INFO -   Accuracy:  1.0000
+2025-10-29 13:57:39,036 - model_training - INFO -   Precision: 1.0000
+2025-10-29 13:57:39,037 - model_training - INFO -   Recall:    1.0000
+2025-10-29 13:57:39,037 - model_training - INFO -   F1 Score:  1.0000
+2025-10-29 13:57:39,038 - model_training - INFO -   ROC AUC:   1.0000
+2025-10-29 13:57:39,074 - model_training - INFO - 
+TEST SET PERFORMANCE:
+2025-10-29 13:57:39,075 - model_training - INFO -   Accuracy:  1.0000
+2025-10-29 13:57:39,075 - model_training - INFO -   Precision: 1.0000
+2025-10-29 13:57:39,076 - model_training - INFO -   Recall:    1.0000
+2025-10-29 13:57:39,076 - model_training - INFO -   F1 Score:  1.0000
+2025-10-29 13:57:39,077 - model_training - INFO -   ROC AUC:   1.0000
+2025-10-29 13:57:39,077 - model_training - INFO - 
+Evaluation logistic_regression ...
+2025-10-29 13:57:39,118 - model_training - INFO - 
+TRAIN SET PERFORMANCE:
+2025-10-29 13:57:39,119 - model_training - INFO -   Accuracy:  0.5556
+2025-10-29 13:57:39,120 - model_training - INFO -   Precision: 0.0000
+2025-10-29 13:57:39,121 - model_training - INFO -   Recall:    0.0000
+2025-10-29 13:57:39,121 - model_training - INFO -   F1 Score:  0.0000
+2025-10-29 13:57:39,122 - model_training - INFO -   ROC AUC:   1.0000
+2025-10-29 13:57:39,161 - model_training - INFO - 
+TEST SET PERFORMANCE:
+2025-10-29 13:57:39,162 - model_training - INFO -   Accuracy:  0.6000
+2025-10-29 13:57:39,165 - model_training - INFO -   Precision: 0.0000
+2025-10-29 13:57:39,166 - model_training - INFO -   Recall:    0.0000
+2025-10-29 13:57:39,167 - model_training - INFO -   F1 Score:  0.0000
+2025-10-29 13:57:39,169 - model_training - INFO -   ROC AUC:   1.0000
+2025-10-29 13:57:39,211 - model_training - INFO - Training report saved to C:\Users\user\Desktop\Radiomica\PIPELINE\results\training_report.txt
+2025-10-29 13:57:47,240 - pipeline - INFO - 
+STEP 7: Saving Pipeline
+2025-10-29 13:57:47,494 - pipeline - INFO - Complete pipeline saved to C:\Users\user\Desktop\Radiomica\PIPELINE\models\pipeline.pkl
+2025-10-29 13:57:47,497 - pipeline - INFO - Pipeline metadata saved to C:\Users\user\Desktop\Radiomica\PIPELINE\models\pipeline_metadata.json
+2025-10-29 13:57:47,498 - pipeline - INFO - 
+================================================================================
+2025-10-29 13:57:47,499 - pipeline - INFO - PIPELINE COMPLETED SUCCESSFULLY
+2025-10-29 13:57:47,500 - pipeline - INFO - ================================================================================
+2025-10-29 13:57:47,579 - root - INFO - Operation completed successfully
+2025-10-29 13:59:33,096 - root - INFO - Starting prediction mode
+2025-10-29 13:59:33,096 - pipeline - INFO - ================================================================================
+2025-10-29 13:59:33,096 - pipeline - INFO - RADIOMICS PIPELINE INITIALIZED
+2025-10-29 13:59:33,096 - pipeline - INFO - ================================================================================
+2025-10-29 13:59:33,096 - feature_extraction - INFO - Radiomics extractor initialized
+2025-10-29 13:59:33,110 - pipeline - INFO - Loading pipeline from models\pipeline.pkl
+2025-10-29 13:59:33,312 - pipeline - INFO - Pipeline loaded successfullly
+2025-10-29 13:59:33,312 - pipeline - INFO - Best model: random_forest
+2025-10-29 13:59:33,312 - pipeline - INFO - Selected features: 15
+2025-10-29 13:59:33,312 - predict - INFO - Predictor initialized with trained ipeline
+2025-10-29 13:59:33,312 - pipeline - INFO - Predicting on new image: dataADsub-015T1T1.nii_fixed.nii.gz
+2025-10-29 13:59:33,312 - preprocessing - INFO - Preprocessing dataADsub-015T1T1.nii_fixed.nii.gz
+2025-10-29 13:59:33,312 - root - ERROR - Operation failed: 'error'
+Traceback (most recent call last):
+  File "C:\Users\user\miniconda3\envs\Radiomics\lib\site-packages\nibabel\loadsave.py", line 101, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'dataADsub-015T1T1.nii_fixed.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\preprocessing.py", line 40, in validate_nifti
+    img = nib.load(str(image_path))
+  File "C:\Users\user\miniconda3\envs\Radiomics\lib\site-packages\nibabel\loadsave.py", line 103, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: 'dataADsub-015T1T1.nii_fixed.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\main.py", line 283, in main
+    predict_mode(args=args, config=config)
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\main.py", line 135, in predict_mode
+    results = predictor. predict_single(
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\predict.py", line 48, in predict_single
+    result = self.pipeline.predict_new_image(image_path, mask_path)
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\pipeline.py", line 416, in predict_new_image
+    image, mask = self.preprocessor.preprocess_image_pair(image_path, mask_path)
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\preprocessing.py", line 255, in preprocess_image_pair
+    img_validation = self.validate_nifti(image_path=image_path)
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\preprocessing.py", line 65, in validate_nifti
+    validation_results['error']. append(f'Failed to load image: {str(e)}')
+KeyError: 'error'
+2025-10-29 14:00:41,726 - root - INFO - Starting prediction mode
+2025-10-29 14:00:41,726 - pipeline - INFO - ================================================================================
+2025-10-29 14:00:41,726 - pipeline - INFO - RADIOMICS PIPELINE INITIALIZED
+2025-10-29 14:00:41,726 - pipeline - INFO - ================================================================================
+2025-10-29 14:00:41,726 - feature_extraction - INFO - Radiomics extractor initialized
+2025-10-29 14:00:41,726 - pipeline - INFO - Loading pipeline from models\pipeline.pkl
+2025-10-29 14:00:41,912 - pipeline - INFO - Pipeline loaded successfullly
+2025-10-29 14:00:41,912 - pipeline - INFO - Best model: random_forest
+2025-10-29 14:00:41,912 - pipeline - INFO - Selected features: 15
+2025-10-29 14:00:41,912 - predict - INFO - Predictor initialized with trained ipeline
+2025-10-29 14:00:41,912 - pipeline - INFO - Predicting on new image: dataADsub-015T1T1.nii_fixed.nii.gz
+2025-10-29 14:00:41,912 - preprocessing - INFO - Preprocessing dataADsub-015T1T1.nii_fixed.nii.gz
+2025-10-29 14:00:41,912 - root - ERROR - Operation failed: 'error'
+Traceback (most recent call last):
+  File "C:\Users\user\miniconda3\envs\Radiomics\lib\site-packages\nibabel\loadsave.py", line 101, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [WinError 2] The system cannot find the file specified: 'dataADsub-015T1T1.nii_fixed.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\preprocessing.py", line 40, in validate_nifti
+    img = nib.load(str(image_path))
+  File "C:\Users\user\miniconda3\envs\Radiomics\lib\site-packages\nibabel\loadsave.py", line 103, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: 'dataADsub-015T1T1.nii_fixed.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\main.py", line 283, in main
+    predict_mode(args=args, config=config)
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\main.py", line 135, in predict_mode
+    results = predictor. predict_single(
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\predict.py", line 48, in predict_single
+    result = self.pipeline.predict_new_image(image_path, mask_path)
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\pipeline.py", line 416, in predict_new_image
+    image, mask = self.preprocessor.preprocess_image_pair(image_path, mask_path)
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\preprocessing.py", line 255, in preprocess_image_pair
+    img_validation = self.validate_nifti(image_path=image_path)
+  File "C:\Users\user\Desktop\Radiomica\PIPELINE\preprocessing.py", line 65, in validate_nifti
+    validation_results['error']. append(f'Failed to load image: {str(e)}')
+KeyError: 'error'
+2025-10-29 14:01:38,158 - root - INFO - Starting prediction mode
+2025-10-29 14:01:38,174 - pipeline - INFO - ================================================================================
+2025-10-29 14:01:38,174 - pipeline - INFO - RADIOMICS PIPELINE INITIALIZED
+2025-10-29 14:01:38,174 - pipeline - INFO - ================================================================================
+2025-10-29 14:01:38,174 - feature_extraction - INFO - Radiomics extractor initialized
+2025-10-29 14:01:38,174 - pipeline - INFO - Loading pipeline from models\pipeline.pkl
+2025-10-29 14:01:38,348 - pipeline - INFO - Pipeline loaded successfullly
+2025-10-29 14:01:38,348 - pipeline - INFO - Best model: random_forest
+2025-10-29 14:01:38,348 - pipeline - INFO - Selected features: 15
+2025-10-29 14:01:38,348 - predict - INFO - Predictor initialized with trained ipeline
+2025-10-29 14:01:38,348 - pipeline - INFO - Predicting on new image: T1.nii_fixed.nii.gz
+2025-10-29 14:01:38,348 - preprocessing - INFO - Preprocessing T1.nii_fixed.nii.gz
+2025-10-29 14:01:40,434 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:01:40,460 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:01:40,460 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:02:00,418 - pipeline - INFO - Prediction: AD (confidence: 78.00%)
+2025-10-29 14:02:00,429 - predict - INFO - Results saved to prediction_T1.nii_fixed.nii.json
+2025-10-29 14:02:00,436 - root - INFO - Operation completed successfully
+2025-10-29 14:03:26,970 - root - INFO - Starting evaluation mode
+2025-10-29 14:03:26,970 - pipeline - INFO - ================================================================================
+2025-10-29 14:03:26,970 - pipeline - INFO - RADIOMICS PIPELINE INITIALIZED
+2025-10-29 14:03:26,970 - pipeline - INFO - ================================================================================
+2025-10-29 14:03:26,970 - feature_extraction - INFO - Radiomics extractor initialized
+2025-10-29 14:03:26,970 - pipeline - INFO - Loading pipeline from models\pipeline.pkl
+2025-10-29 14:03:27,091 - pipeline - INFO - Pipeline loaded successfullly
+2025-10-29 14:03:27,093 - pipeline - INFO - Best model: random_forest
+2025-10-29 14:03:27,093 - pipeline - INFO - Selected features: 15
+2025-10-29 14:03:27,093 - root - INFO - Extracting features from test dataset ...
+2025-10-29 14:03:27,095 - feature_extraction - INFO - Processing AD dataser (label=1)
+2025-10-29 14:03:27,110 - feature_extraction - INFO - Processing CN dataser (label=0)
+2025-10-29 14:03:27,118 - feature_extraction - INFO - Found 27 valid subjects
+2025-10-29 14:03:27,118 - feature_extraction - INFO - Extracting features from 27 subjects...
+2025-10-29 14:03:27,121 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:03:29,875 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-001\T1\T1.nii.gz
+2025-10-29 14:03:31,563 - preprocessing - INFO - Fixed image saved to data\AD\sub-001\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:03:34,077 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-001\label\label.nii.gz
+2025-10-29 14:03:34,264 - preprocessing - INFO - Fixed image saved to data\AD\sub-001\label\label.nii_fixed.nii.gz
+2025-10-29 14:03:34,669 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:03:34,690 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:03:34,690 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:03:59,356 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:04:03,588 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-002\T1\T1.nii.gz
+2025-10-29 14:04:06,188 - preprocessing - INFO - Fixed image saved to data\AD\sub-002\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:04:08,018 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-002\label\label.nii.gz
+2025-10-29 14:04:08,250 - preprocessing - INFO - Fixed image saved to data\AD\sub-002\label\label.nii_fixed.nii.gz
+2025-10-29 14:04:08,807 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:04:08,816 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:04:08,817 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:04:38,162 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:04:40,920 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-004\T1\T1.nii.gz
+2025-10-29 14:04:41,644 - preprocessing - INFO - Fixed image saved to data\AD\sub-004\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:04:43,607 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-004\label\label.nii.gz
+2025-10-29 14:04:43,808 - preprocessing - INFO - Fixed image saved to data\AD\sub-004\label\label.nii_fixed.nii.gz
+2025-10-29 14:04:44,127 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:04:44,137 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:04:44,138 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:05:03,363 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:05:06,761 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-005\T1\T1.nii.gz
+2025-10-29 14:05:09,531 - preprocessing - INFO - Fixed image saved to data\AD\sub-005\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:05:11,718 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-005\label\label.nii.gz
+2025-10-29 14:05:12,016 - preprocessing - INFO - Fixed image saved to data\AD\sub-005\label\label.nii_fixed.nii.gz
+2025-10-29 14:05:13,069 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:05:13,089 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:05:13,090 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:05:39,698 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:05:43,579 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-007\T1\T1.nii.gz
+2025-10-29 14:05:45,828 - preprocessing - INFO - Fixed image saved to data\AD\sub-007\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:05:48,668 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-007\label\label.nii.gz
+2025-10-29 14:05:48,871 - preprocessing - INFO - Fixed image saved to data\AD\sub-007\label\label.nii_fixed.nii.gz
+2025-10-29 14:05:49,307 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:05:49,316 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:05:49,317 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:06:14,250 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:06:18,586 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-008\T1\T1.nii.gz
+2025-10-29 14:06:20,551 - preprocessing - INFO - Fixed image saved to data\AD\sub-008\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:06:22,749 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-008\label\label.nii.gz
+2025-10-29 14:06:23,134 - preprocessing - INFO - Fixed image saved to data\AD\sub-008\label\label.nii_fixed.nii.gz
+2025-10-29 14:06:24,242 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:06:24,259 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:06:24,260 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:06:51,443 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:06:55,661 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-009\T1\T1.nii.gz
+2025-10-29 14:06:57,731 - preprocessing - INFO - Fixed image saved to data\AD\sub-009\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:07:00,158 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-009\label\label.nii.gz
+2025-10-29 14:07:00,440 - preprocessing - INFO - Fixed image saved to data\AD\sub-009\label\label.nii_fixed.nii.gz
+2025-10-29 14:07:01,302 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:07:01,323 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:07:01,324 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:07:25,157 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:07:27,942 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-010\T1\T1.nii.gz
+2025-10-29 14:07:29,956 - preprocessing - INFO - Fixed image saved to data\AD\sub-010\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:07:32,079 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-010\label\label.nii.gz
+2025-10-29 14:07:32,463 - preprocessing - INFO - Fixed image saved to data\AD\sub-010\label\label.nii_fixed.nii.gz
+2025-10-29 14:07:33,592 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:07:33,614 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:07:33,615 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:08:02,085 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:08:05,805 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-011\T1\T1.nii.gz
+2025-10-29 14:08:08,325 - preprocessing - INFO - Fixed image saved to data\AD\sub-011\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:08:10,411 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-011\label\label.nii.gz
+2025-10-29 14:08:10,622 - preprocessing - INFO - Fixed image saved to data\AD\sub-011\label\label.nii_fixed.nii.gz
+2025-10-29 14:08:11,184 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:08:11,195 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:08:11,196 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:08:35,256 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:08:38,434 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-013\T1\T1.nii.gz
+2025-10-29 14:08:39,909 - preprocessing - INFO - Fixed image saved to data\AD\sub-013\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:08:42,134 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-013\label\label.nii.gz
+2025-10-29 14:08:42,394 - preprocessing - INFO - Fixed image saved to data\AD\sub-013\label\label.nii_fixed.nii.gz
+2025-10-29 14:08:42,784 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:08:42,795 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:08:42,796 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:09:05,230 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:09:09,175 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-014\T1\T1.nii.gz
+2025-10-29 14:09:11,189 - preprocessing - INFO - Fixed image saved to data\AD\sub-014\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:09:13,296 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-014\label\label.nii.gz
+2025-10-29 14:09:13,445 - preprocessing - INFO - Fixed image saved to data\AD\sub-014\label\label.nii_fixed.nii.gz
+2025-10-29 14:09:13,905 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:09:13,916 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:09:13,917 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:09:35,659 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:09:39,281 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-015\T1\T1.nii.gz
+2025-10-29 14:09:41,151 - preprocessing - INFO - Fixed image saved to data\AD\sub-015\T1\T1.nii_fixed.nii.gz
+2025-10-29 14:09:43,268 - preprocessing - WARNING - Fixing non-orthonormal affine in data\AD\sub-015\label\label.nii.gz
+2025-10-29 14:09:43,558 - preprocessing - INFO - Fixed image saved to data\AD\sub-015\label\label.nii_fixed.nii.gz
+2025-10-29 14:09:44,671 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:09:44,686 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:09:44,687 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:10:09,967 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:10:11,655 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:10:11,674 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:10:11,675 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:10:41,909 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:10:42,544 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:10:42,548 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:10:42,548 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:11:15,937 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:11:17,268 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:11:17,281 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:11:17,283 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:11:52,270 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:11:53,762 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:11:53,778 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:11:53,779 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:12:28,797 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:12:30,236 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:12:30,247 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:12:30,248 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:13:06,293 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:13:08,004 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:13:08,014 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:13:08,015 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:13:45,317 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:13:46,358 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:13:46,364 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:13:46,365 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:14:22,329 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:14:23,944 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:14:23,970 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:14:23,971 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:14:57,612 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:14:59,444 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:14:59,460 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:14:59,461 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:15:28,673 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:15:30,044 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:15:30,054 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:15:30,055 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:15:58,548 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:15:59,532 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:15:59,543 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:15:59,544 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:16:28,398 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:16:29,294 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:16:29,305 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:16:29,306 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:17:02,474 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:17:03,571 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:17:03,579 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:17:03,580 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:17:32,152 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:17:33,096 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:17:33,106 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:17:33,107 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:18:00,930 - preprocessing - INFO - Preprocessing T1.nii.gz
+2025-10-29 14:18:02,389 - preprocessing - ERROR - Error checking aligment: operands could not be broadcast together with shapes (3,) (9,) 
+2025-10-29 14:18:02,399 - preprocessing - WARNING - Image and mask may not be properly aligned
+2025-10-29 14:18:02,400 - preprocessing - INFO - Image and mask intensity normalization
+2025-10-29 14:18:27,931 - feature_extraction - INFO - Successfully extracted features from 27 subjects
+2025-10-29 14:18:27,931 - feature_extraction - INFO - Number of features: 1617
+2025-10-29 14:18:27,939 - feature_extraction - INFO - Class distribution: [15 12]
+2025-10-29 14:18:28,371 - model_training - INFO - 
+EVALUATION SET PERFORMANCE:
+2025-10-29 14:18:28,372 - model_training - INFO -   Accuracy:  1.0000
+2025-10-29 14:18:28,373 - model_training - INFO -   Precision: 1.0000
+2025-10-29 14:18:28,373 - model_training - INFO -   Recall:    1.0000
+2025-10-29 14:18:28,374 - model_training - INFO -   F1 Score:  1.0000
+2025-10-29 14:18:28,374 - model_training - INFO -   ROC AUC:   1.0000
+2025-10-29 14:19:37,178 - root - INFO - Operation completed successfully
